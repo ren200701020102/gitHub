@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		592B9C86FD74F1414288FBD5 /* libPods-导航交互动画.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A36B1FF8327D21BEF5928A4 /* libPods-导航交互动画.a */; };
+		78FC53D01D4E190800219937 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FC53CF1D4E190800219937 /* main.m */; };
+		78FC53D31D4E190800219937 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FC53D21D4E190800219937 /* AppDelegate.m */; };
+		78FC53D61D4E190800219937 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FC53D51D4E190800219937 /* ViewController.m */; };
+		78FC53D91D4E190800219937 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78FC53D71D4E190800219937 /* Main.storyboard */; };
+		78FC53DB1D4E190800219937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78FC53DA1D4E190800219937 /* Assets.xcassets */; };
+		78FC53DE1D4E190800219937 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78FC53DC1D4E190800219937 /* LaunchScreen.storyboard */; };
+		78FC53EE1D4E1A5600219937 /* NavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FC53E71D4E1A5600219937 /* NavigationControllerDelegate.m */; };
+		78FC53EF1D4E1A5600219937 /* NavigationTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FC53E91D4E1A5600219937 /* NavigationTransitionAnimation.m */; };
+		78FC53F01D4E1A5600219937 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FC53EB1D4E1A5600219937 /* UIImage+Extension.m */; };
+		78FC53F11D4E1A5600219937 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FC53ED1D4E1A5600219937 /* ViewController2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A36B1FF8327D21BEF5928A4 /* libPods-导航交互动画.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-导航交互动画.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78FC53CB1D4E190800219937 /* 导航交互动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "导航交互动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78FC53CF1D4E190800219937 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78FC53D11D4E190800219937 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78FC53D21D4E190800219937 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78FC53D41D4E190800219937 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		78FC53D51D4E190800219937 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78FC53D81D4E190800219937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78FC53DA1D4E190800219937 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78FC53DD1D4E190800219937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78FC53DF1D4E190800219937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78FC53E51D4E1A5600219937 /* me.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = me.pch; sourceTree = "<group>"; };
+		78FC53E61D4E1A5600219937 /* NavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationControllerDelegate.h; sourceTree = "<group>"; };
+		78FC53E71D4E1A5600219937 /* NavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationControllerDelegate.m; sourceTree = "<group>"; };
+		78FC53E81D4E1A5600219937 /* NavigationTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationTransitionAnimation.h; sourceTree = "<group>"; };
+		78FC53E91D4E1A5600219937 /* NavigationTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationTransitionAnimation.m; sourceTree = "<group>"; };
+		78FC53EA1D4E1A5600219937 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		78FC53EB1D4E1A5600219937 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		78FC53EC1D4E1A5600219937 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		78FC53ED1D4E1A5600219937 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		871295BF1A8795ED8011C912 /* Pods-导航交互动画.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-导航交互动画.release.xcconfig"; path = "Pods/Target Support Files/Pods-导航交互动画/Pods-导航交互动画.release.xcconfig"; sourceTree = "<group>"; };
+		BB812E9DC72D5B9CA138A8D7 /* Pods-导航交互动画.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-导航交互动画.debug.xcconfig"; path = "Pods/Target Support Files/Pods-导航交互动画/Pods-导航交互动画.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78FC53C81D4E190800219937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592B9C86FD74F1414288FBD5 /* libPods-导航交互动画.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C9CFB5F80E24EAAEDCC7BFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A36B1FF8327D21BEF5928A4 /* libPods-导航交互动画.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78FC53C21D4E190800219937 = {
+			isa = PBXGroup;
+			children = (
+				78FC53CD1D4E190800219937 /* 导航交互动画 */,
+				78FC53CC1D4E190800219937 /* Products */,
+				BAE2D3F700BABABCEA732CE4 /* Pods */,
+				6C9CFB5F80E24EAAEDCC7BFC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		78FC53CC1D4E190800219937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78FC53CB1D4E190800219937 /* 导航交互动画.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78FC53CD1D4E190800219937 /* 导航交互动画 */ = {
+			isa = PBXGroup;
+			children = (
+				78FC53D11D4E190800219937 /* AppDelegate.h */,
+				78FC53D21D4E190800219937 /* AppDelegate.m */,
+				78FC53D41D4E190800219937 /* ViewController.h */,
+				78FC53D51D4E190800219937 /* ViewController.m */,
+				78FC53E51D4E1A5600219937 /* me.pch */,
+				78FC53E61D4E1A5600219937 /* NavigationControllerDelegate.h */,
+				78FC53E71D4E1A5600219937 /* NavigationControllerDelegate.m */,
+				78FC53E81D4E1A5600219937 /* NavigationTransitionAnimation.h */,
+				78FC53E91D4E1A5600219937 /* NavigationTransitionAnimation.m */,
+				78FC53EA1D4E1A5600219937 /* UIImage+Extension.h */,
+				78FC53EB1D4E1A5600219937 /* UIImage+Extension.m */,
+				78FC53EC1D4E1A5600219937 /* ViewController2.h */,
+				78FC53ED1D4E1A5600219937 /* ViewController2.m */,
+				78FC53D71D4E190800219937 /* Main.storyboard */,
+				78FC53DA1D4E190800219937 /* Assets.xcassets */,
+				78FC53DC1D4E190800219937 /* LaunchScreen.storyboard */,
+				78FC53DF1D4E190800219937 /* Info.plist */,
+				78FC53CE1D4E190800219937 /* Supporting Files */,
+			);
+			path = "导航交互动画";
+			sourceTree = "<group>";
+		};
+		78FC53CE1D4E190800219937 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78FC53CF1D4E190800219937 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAE2D3F700BABABCEA732CE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB812E9DC72D5B9CA138A8D7 /* Pods-导航交互动画.debug.xcconfig */,
+				871295BF1A8795ED8011C912 /* Pods-导航交互动画.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78FC53CA1D4E190800219937 /* 导航交互动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78FC53E21D4E190800219937 /* Build configuration list for PBXNativeTarget "导航交互动画" */;
+			buildPhases = (
+				618E26656A804B25466DA430 /* [CP] Check Pods Manifest.lock */,
+				78FC53C71D4E190800219937 /* Sources */,
+				78FC53C81D4E190800219937 /* Frameworks */,
+				78FC53C91D4E190800219937 /* Resources */,
+				F83F5B3B1D3BA49E2B6221F6 /* [CP] Embed Pods Frameworks */,
+				44E35BA7CF1739E0F99EAA98 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "导航交互动画";
+			productName = "导航交互动画";
+			productReference = 78FC53CB1D4E190800219937 /* 导航交互动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78FC53C31D4E190800219937 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "任海平";
+				TargetAttributes = {
+					78FC53CA1D4E190800219937 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 78FC53C61D4E190800219937 /* Build configuration list for PBXProject "导航交互动画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78FC53C21D4E190800219937;
+			productRefGroup = 78FC53CC1D4E190800219937 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78FC53CA1D4E190800219937 /* 导航交互动画 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78FC53C91D4E190800219937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FC53DE1D4E190800219937 /* LaunchScreen.storyboard in Resources */,
+				78FC53DB1D4E190800219937 /* Assets.xcassets in Resources */,
+				78FC53D91D4E190800219937 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44E35BA7CF1739E0F99EAA98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-导航交互动画/Pods-导航交互动画-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		618E26656A804B25466DA430 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F83F5B3B1D3BA49E2B6221F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-导航交互动画/Pods-导航交互动画-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78FC53C71D4E190800219937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FC53F11D4E1A5600219937 /* ViewController2.m in Sources */,
+				78FC53EE1D4E1A5600219937 /* NavigationControllerDelegate.m in Sources */,
+				78FC53EF1D4E1A5600219937 /* NavigationTransitionAnimation.m in Sources */,
+				78FC53D61D4E190800219937 /* ViewController.m in Sources */,
+				78FC53F01D4E1A5600219937 /* UIImage+Extension.m in Sources */,
+				78FC53D31D4E190800219937 /* AppDelegate.m in Sources */,
+				78FC53D01D4E190800219937 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		78FC53D71D4E190800219937 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78FC53D81D4E190800219937 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78FC53DC1D4E190800219937 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78FC53DD1D4E190800219937 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78FC53E01D4E190800219937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78FC53E11D4E190800219937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78FC53E31D4E190800219937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB812E9DC72D5B9CA138A8D7 /* Pods-导航交互动画.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/导航交互动画/me.pch";
+				INFOPLIST_FILE = "导航交互动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sinocc.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		78FC53E41D4E190800219937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 871295BF1A8795ED8011C912 /* Pods-导航交互动画.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/导航交互动画/me.pch";
+				INFOPLIST_FILE = "导航交互动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sinocc.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78FC53C61D4E190800219937 /* Build configuration list for PBXProject "导航交互动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FC53E01D4E190800219937 /* Debug */,
+				78FC53E11D4E190800219937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78FC53E21D4E190800219937 /* Build configuration list for PBXNativeTarget "导航交互动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FC53E31D4E190800219937 /* Debug */,
+				78FC53E41D4E190800219937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78FC53C31D4E190800219937 /* Project object */;
+}

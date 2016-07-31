@@ -1,0 +1,4 @@
+target "导航交互动画" do
+pod 'Masonry'
+pod 'FLEX'
+end

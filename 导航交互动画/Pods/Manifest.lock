@@ -1,0 +1,15 @@
+PODS:
+  - FLEX (2.3.0)
+  - Masonry (1.0.1)
+
+DEPENDENCIES:
+  - FLEX
+  - Masonry
+
+SPEC CHECKSUMS:
+  FLEX: ba80ea13d2c784e85e616137fd4eff164781e364
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+
+PODFILE CHECKSUM: f661a4f337c4908fd71ebd5696d0e5cc1f889fec
+
+COCOAPODS: 1.0.1
